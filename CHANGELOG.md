@@ -8,4 +8,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
   - Initial Release with Sample Code
-  - Support for IVS live stream playback
+  - Support for Agora live stream multi-host playback
