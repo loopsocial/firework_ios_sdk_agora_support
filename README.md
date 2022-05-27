@@ -13,21 +13,21 @@ This supporting library assumes basic familiarity with Agora. If needed, read ov
 
 ## FireworkVideo SDK Documentation
 
-This supporting library is intended to be used alongside FireworkVideo SDK. Read over the [FireworkVideo SDK documentation](https://github.com/loopsocial/firework_ios_sdk#fireworkvideo) and [sample code](https://github.com/loopsocial/firework_ios_sdk/tree/main/FireworkVideoSample) to ensure smooth integration with IVS SDK.
+This supporting library is intended to be used alongside FireworkVideo SDK. Read over the [FireworkVideo SDK documentation](https://github.com/loopsocial/firework_ios_sdk#fireworkvideo) and [sample code](https://github.com/loopsocial/firework_ios_sdk/tree/main/FireworkVideoSample) to ensure smooth integration with Agora SDK.
 
-Ensure your Firework content is configured and apply correct styling and/or layout before integrating the IVS supporting library. This will ensure your testing conditions will match your production environment.
+Ensure your Firework content is configured and apply correct styling and/or layout before integrating the Agora supporting library. This will ensure your testing conditions will match your production environment.
 
 ## Setup
 
   1. Add FireworkVideoSDK to your project; follow the [Firework Video installation instructions](https://github.com/loopsocial/firework_ios_sdk#readme).
-  2. Add Amazon IVS SDK to your project; follow the [Amazon IVS installation instructions](https://docs.aws.amazon.com/ivs/latest/userguide/player-ios.html).
-  3. Add FireworkVideoIVSSupporting library to your project; follow the instructions [below](#installation).
+  2. Add Agora Live Streaming SDK to your project; follow the [Agora installation instructions](https://docs.agora.io/en/Interactive%20Broadcast/start_live_ios?platform=iOS#project-setup).
+  3. Add FireworkVideoAgoraSupporting library to your project; follow the instructions [below](#installation).
 
 ### Installation
 
-Swift Package Manager is the recommended way to install the FireworkVideo IVS Supporting Library.
+Swift Package Manager is the recommended way to install the FireworkVideo Agora Supporting Library.
 
-> Note: alternatively you can [download the binary](https://github.com/loopsocial/firework_ios_sdk_ivs_support/releases/latest) directly and install it manually.
+> Note: alternatively you can [download the binary](https://github.com/loopsocial/firework_ios_sdk_ivs_support/releases/latest) directly and install it manually. (TODO)
 
 ## Using the SDK
 
@@ -38,11 +38,11 @@ Set up the SDK alongside FireworkVideo as soon as possible after app launch. See
         // First initialize the FireworkVideoSDK
         FireworkVideoSDK.initializeSDK()
         
-        FireworkVideoSDK.enableIVSPlayback()
+        FireworkVideoSDK.enableMultiHostPlayback()
         
         return true
     }
 ```
 
-FireworkVideo after both SDKs are initialized, FireworkVideo will make internal requests to the supporting library as determined by the Firework configuration for your App ID.
+After both SDKs are initialized, FireworkVideo will make internal requests to the supporting library as determined by the Firework configuration for your App ID.
 
