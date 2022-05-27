@@ -6,7 +6,7 @@ A supporting library for the Agora Interactive Live Streaming SDK for use with F
 
 ## Agora Interactive Live Streaming SDK Documentation
 
-This supporting library assumes basic familiarity with Agora. If needed, read over the Agora [User Guide](https://docs.agora.io/en/Interactive%20Broadcast/landing-page) before diving in.
+This supporting library assumes basic familiarity with Agora. If needed, read over the Agora [Documentation](https://docs.agora.io/en/Interactive%20Broadcast/landing-page) before diving in.
 
 
 **The supporting library only supports Agora SDK 3.6.3 or higher. Using the supporting library alongside a version of Agora SDK below 3.6.3 may result in undefined behavior.**
