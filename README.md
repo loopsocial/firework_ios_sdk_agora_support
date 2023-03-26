@@ -9,7 +9,7 @@ A supporting library for the Agora Interactive Live Streaming SDK for use with F
 This supporting library assumes basic familiarity with Agora. If needed, read over the Agora [Documentation](https://docs.agora.io/en/Interactive%20Broadcast/landing-page) before diving in.
 
 
-**The supporting library only supports Agora SDK 3.6.3 or higher. Using the supporting library alongside a version of Agora SDK below 3.6.3 may result in undefined behavior.**
+**The supporting library only supports Agora SDK 4.0.1 or higher. Using the supporting library alongside a version of Agora SDK below 4.0.1 may result in undefined behavior.**
 
 ## FireworkVideo SDK Documentation
 
@@ -27,7 +27,7 @@ Ensure your Firework content is configured and apply correct styling and/or layo
 
 Swift Package Manager is the recommended way to install the FireworkVideo Agora Supporting Library.
 
-> Note: alternatively you can [download the binary](https://github.com/loopsocial/firework_ios_sdk_ivs_support/releases/latest) directly and install it manually. (TODO)
+> Note: alternatively you can [download the binary](https://github.com/loopsocial/firework_ios_sdk_agora_support/releases/latest) directly and install it manually.
 
 ## Using the SDK
 
