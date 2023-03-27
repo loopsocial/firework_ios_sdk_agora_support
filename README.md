@@ -20,7 +20,7 @@ Ensure your Firework content is configured and apply correct styling and/or layo
 ## Setup
 
   1. Add FireworkVideoSDK to your project; follow the [Firework Video installation instructions](https://github.com/loopsocial/firework_ios_sdk#readme).
-  2. Add Agora Live Streaming SDK to your project; follow the [Agora installation instructions](https://docs.agora.io/en/Interactive%20Broadcast/start_live_ios?platform=iOS#project-setup).
+  2. Add Agora Live Streaming SDK to your project; follow the [Agora installation instructions](https://docs.agora.io/en/interactive-live-streaming/get-started/get-started-sdk?platform=ios).
   3. Add FireworkVideoAgoraSupporting library to your project; follow the instructions [below](#installation).
 
 ### Installation
