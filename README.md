@@ -21,13 +21,16 @@ Ensure your Firework content is configured and apply correct styling and/or layo
 
   1. Add FireworkVideoSDK to your project; follow the [Firework Video installation instructions](https://github.com/loopsocial/firework_ios_sdk#readme).
   2. Add Agora Live Streaming SDK to your project; follow the [Agora installation instructions](https://docs.agora.io/en/interactive-live-streaming/get-started/get-started-sdk?platform=ios).
-  3. Add FireworkVideoAgoraSupporting library to your project; follow the instructions [below](#installation).
+  3. Add SwiftProtobuf SDK to your project; follow the [SwiftProtobuf installation instructions](https://github.com/apple/swift-protobuf#adding-the-swiftprotobuf-library-to-your-project)
+  4. Add FireworkVideoAgoraSupporting library to your project; follow the instructions [below](#installation).
 
 ### Installation
 
-Swift Package Manager is the recommended way to install the FireworkVideo Agora Supporting Library.
+  1. Swift Package Manager is the recommended way to install the FireworkVideo Agora Supporting Library.
 
-> Note: alternatively you can [download the binary](https://github.com/loopsocial/firework_ios_sdk_agora_support/releases/latest) directly and install it manually.
+  > Note: alternatively you can [download the binary](https://github.com/loopsocial/firework_ios_sdk_agora_support/releases/latest) directly and install it manually.
+  
+  2. Add project permissions to your Info.plist for microphone (NSMicrophoneUsageDescription) and camera usage (NSCameraUsageDescription)
 
 ## Using the SDK
 
