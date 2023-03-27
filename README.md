@@ -9,7 +9,7 @@ A supporting library for the Agora Interactive Live Streaming SDK for use with F
 This supporting library assumes basic familiarity with Agora. If needed, read over the Agora [Documentation](https://docs.agora.io/en/Interactive%20Broadcast/landing-page) before diving in.
 
 
-**The supporting library only supports Agora SDK 3.6.3 or higher. Using the supporting library alongside a version of Agora SDK below 3.6.3 may result in undefined behavior.**
+**The supporting library only supports Agora SDK 4.0.1 or higher. Using the supporting library alongside a version of Agora SDK below 4.0.1 may result in undefined behavior.**
 
 ## FireworkVideo SDK Documentation
 
@@ -20,14 +20,17 @@ Ensure your Firework content is configured and apply correct styling and/or layo
 ## Setup
 
   1. Add FireworkVideoSDK to your project; follow the [Firework Video installation instructions](https://github.com/loopsocial/firework_ios_sdk#readme).
-  2. Add Agora Live Streaming SDK to your project; follow the [Agora installation instructions](https://docs.agora.io/en/Interactive%20Broadcast/start_live_ios?platform=iOS#project-setup).
-  3. Add FireworkVideoAgoraSupporting library to your project; follow the instructions [below](#installation).
+  2. Add Agora Live Streaming SDK to your project; follow the [Agora installation instructions](https://docs.agora.io/en/interactive-live-streaming/get-started/get-started-sdk?platform=ios).
+  3. Add SwiftProtobuf SDK to your project; follow the [SwiftProtobuf installation instructions](https://github.com/apple/swift-protobuf#adding-the-swiftprotobuf-library-to-your-project)
+  4. Add FireworkVideoAgoraSupporting library to your project; follow the instructions [below](#installation).
 
 ### Installation
 
-Swift Package Manager is the recommended way to install the FireworkVideo Agora Supporting Library.
+  1. Swift Package Manager is the recommended way to install the FireworkVideo Agora Supporting Library.
 
-> Note: alternatively you can [download the binary](https://github.com/loopsocial/firework_ios_sdk_ivs_support/releases/latest) directly and install it manually. (TODO)
+  > Note: alternatively you can [download the binary](https://github.com/loopsocial/firework_ios_sdk_agora_support/releases/latest) directly and install it manually.
+  
+  2. Add project permissions to your Info.plist for microphone (NSMicrophoneUsageDescription) and camera usage (NSCameraUsageDescription)
 
 ## Using the SDK
 
