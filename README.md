@@ -28,7 +28,7 @@ Ensure your Firework content is configured and apply correct styling and/or layo
 
   1. Swift Package Manager is the recommended way to install the FireworkVideo Agora Supporting Library.
 
-  > Note: alternatively you can install the library via Cocoapods `pod 'FireworkVideoAgoraSupport'`
+  > Note: you can also install the library via Cocoapods `pod 'FireworkVideoAgoraSupport'`
   
   > Note: alternatively you can [download the binary](https://github.com/loopsocial/firework_ios_sdk_agora_support/releases/latest) directly and install it manually.
   
