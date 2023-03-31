@@ -9,7 +9,7 @@ A supporting library for the Agora Interactive Live Streaming SDK for use with F
 This supporting library assumes basic familiarity with Agora. If needed, read over the Agora [Documentation](https://docs.agora.io/en/Interactive%20Broadcast/landing-page) before diving in.
 
 
-**The supporting library only supports Agora SDK 4.0.1 or higher. Using the supporting library alongside a version of Agora SDK below 4.0.1 may result in undefined behavior.**
+**The supporting library only supports Agora SDK 4.1.1 or higher. Using the supporting library alongside a version of Agora SDK below 4.1.1 may result in undefined behavior.**
 
 ## FireworkVideo SDK Documentation
 

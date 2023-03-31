@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git",
-            .upToNextMajor(from: "4.0.1")
+            .upToNextMajor(from: "4.1.1")
         ),
         .package(
             url: "https://github.com/apple/swift-protobuf.git",
