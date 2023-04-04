@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FireworkVideoAgoraSupport'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'FireworkVideoAgoraSupport'
 
   s.homepage         = 'https://github.com/loopsocial/firework_ios_sdk_agora_support'
@@ -9,12 +9,13 @@ Pod::Spec.new do |s|
   s.platform         = :ios, "13.0"
   s.module_name      = "FireworkVideoAgoraSupport"
   s.source           = { :http => "https://github.com/loopsocial/firework_ios_sdk_agora_support/releases/download/v#{s.version}/FireworkVideoAgoraSupport-v#{s.version}.xcframework.zip" }
+  s.swift_version    = '5.3'
 
   s.preserve_paths           = "FireworkVideoAgoraSupport.xcframework"
   s.ios.vendored_frameworks  = "FireworkVideoAgoraSupport.xcframework"
   s.cocoapods_version        = '>= 1.10.0'
 
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.dependency 'AgoraRtcEngine_iOS', '~> 4.1'
+  s.dependency 'SwiftProtobuf', '~> 1.21'
 
 end
