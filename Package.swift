@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "FireworkVideoAgoraSupport",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -22,8 +22,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FireworkVideoAgoraSupport",
-            url: "https://github.com/loopsocial/firework_ios_sdk_agora_support/releases/download/v0.3.0/FireworkVideoAgoraSupport-v0.3.0.xcframework.zip",
-            checksum: "80b04f9c072bf748ec747110724606bfb7d92a7b552c1e4c1a187d7352ec4277"
+            url: "https://github.com/loopsocial/firework_ios_sdk_agora_support/releases/download/v0.4.0/FireworkVideoAgoraSupport-v0.4.0.xcframework.zip",
+            checksum: "4ebd6ef7a638b6fb278d3605918147713d37cc25bc52c65ebe6d4772409458cc"
         )
         ,
         .target(
