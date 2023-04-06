@@ -17,10 +17,6 @@ let package = Package(
         .package(
             url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git",
             .upToNextMajor(from: "4.1.1")
-        ),
-        .package(
-            url: "https://github.com/apple/swift-protobuf.git",
-            .upToNextMajor(from: "1.21.0")
         )
     ],
     targets: [
@@ -33,8 +29,7 @@ let package = Package(
         .target(
             name: "FireworkVideoAgoraSupportDependencies",
             dependencies: [
-                .product(name: "RtcBasic", package: "AgoraRtcEngine_iOS"),
-                .product(name: "SwiftProtobuf", package: "swift-protobuf")
+                .product(name: "RtcBasic", package: "AgoraRtcEngine_iOS")
             ])
     ]
 )

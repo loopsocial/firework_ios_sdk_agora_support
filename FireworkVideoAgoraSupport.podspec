@@ -16,6 +16,5 @@ Pod::Spec.new do |s|
   s.cocoapods_version        = '>= 1.10.0'
 
   s.dependency 'AgoraRtcEngine_iOS', '~> 4.1'
-  s.dependency 'SwiftProtobuf', '~> 1.21'
 
 end
