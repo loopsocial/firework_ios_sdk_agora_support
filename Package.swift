@@ -1,4 +1,4 @@
-// swift-tools-version:5.6
+// swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -16,14 +16,14 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git",
-            exact: "4.2.0"
+            .exact("4.2.0")
         )
     ],
     targets: [
         .binaryTarget(
             name: "FireworkVideoAgoraSupport",
-            url: "https://github.com/loopsocial/firework_ios_sdk_agora_support/releases/download/v0.5.0-beta.3/FireworkVideoAgoraSupport-v0.5.0-beta.3.xcframework.zip",
-            checksum: "1eb84f20b90b18dd3bac4bb3a11f434180c9082a77573b4c4fff756dcd9ba733"
+            url: "https://github.com/loopsocial/firework_ios_sdk_agora_support/releases/download/v0.5.0-beta.4/FireworkVideoAgoraSupport-v0.5.0-beta.4.xcframework.zip",
+            checksum: "0a1f9e02a6af92ab4a9d9c362509f12164d63296c5771079f16949c27ef7fdeb"
         )
         ,
         .target(
