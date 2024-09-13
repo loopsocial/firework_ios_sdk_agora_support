@@ -23,13 +23,13 @@ let package = Package(
         .binaryTarget(
             name: "FireworkVideoAgoraSupport",
             url: "https://github.com/loopsocial/firework_ios_sdk_agora_support/releases/download/v0.5.0-beta.2/FireworkVideoAgoraSupport-v0.5.0-beta.2.xcframework.zip",
-            checksum: "2f072b7c05bd1cb0ecbc8a974074b096fb3a0ab978c1a7856a9acb4c9678a95b"
+            checksum: "36f8cdd48dd536cc2cc500d3c18bcad2eed28b076cd7131f2b5d157f6b2fff97"
         )
         ,
         .target(
             name: "FireworkVideoAgoraSupportDependencies",
             dependencies: [
-                .product(name: "RtcBasic", package: "AgoraRtcKit")
+                .product(name: "RtcBasic", package: "AgoraRtcEngine_iOS")
             ])
     ]
 )
