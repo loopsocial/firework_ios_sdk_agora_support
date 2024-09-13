@@ -7,36 +7,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Update
 
-  - Updated compatibility with 4.2.0 and later versions of Agora SDKs.
+- Updated compatibility with 4.2.0 and later versions of Agora SDKs.
 
 ## [0.4.1]
 
 ### Fixed
 
-  - Resolved an issue where livestream audio would continue playing even after moving away from the tab.
+- Resolved an issue where livestream audio would continue playing even after moving away from the tab.
 
 ## [0.4.0]
 
 ### Update
 
-  - Supported versions
+- Supported versions
 
 ## [0.3.0]
 
 ### Update
 
-  - Pod dependency
+- Pod dependency
 
 ## [0.2.0]
 
 ### Update
 
-  - Binary update for Apple Swift version compatibility.
+- Binary update for Apple Swift version compatibility.
 
 ## [0.1.0]
 
 ### Added
 
-  - Initial Release with Sample Code
-  - Support for Agora live stream multi-host playback
-  - Support Realtime subtitles
+- Initial Release with Sample Code
+- Support for Agora live stream multi-host playback
+- Support Realtime subtitles
