@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FireworkVideoAgoraSupport'
-  s.version          = '0.5.0'
+  s.version          = '0.5.1'
   s.summary          = 'FireworkVideoAgoraSupport'
 
   s.homepage         = 'https://github.com/loopsocial/firework_ios_sdk_agora_support'
@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks  = "FireworkVideoAgoraSupport.xcframework"
   s.cocoapods_version        = '>= 1.10.0'
 
-  s.dependency 'AgoraRtcEngine_iOS/RtcBasic', '4.2.6'
+  s.dependency 'AgoraRtcEngine_iOS/RtcBasic', '4.4.0'
 
 end

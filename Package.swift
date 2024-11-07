@@ -16,14 +16,14 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git",
-            .exact("4.2.6")
+            .exact("4.4.0")
         )
     ],
     targets: [
         .binaryTarget(
             name: "FireworkVideoAgoraSupport",
-            url: "https://github.com/loopsocial/firework_ios_sdk_agora_support/releases/download/v0.5.0/FireworkVideoAgoraSupport-v0.5.0.xcframework.zip",
-            checksum: "afcec9ca74cc3e1d4a9df0ddb2271ab16e4cc57234b68c4ac09e65b5dbfe21a3"
+            url: "https://github.com/loopsocial/firework_ios_sdk_agora_support/releases/download/v0.5.1/FireworkVideoAgoraSupport-v0.5.1.xcframework.zip",
+            checksum: "7464b05d90da2bcc4c8e053e34741caf1ff9bd8a28cf61920e947191c4dab542"
         )
         ,
         .target(
