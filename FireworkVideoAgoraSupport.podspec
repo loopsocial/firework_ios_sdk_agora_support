@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FireworkVideoAgoraSupport'
-  s.version          = '0.5.2'
+  s.version          = '0.6.0-beta.1'
   s.summary          = 'FireworkVideoAgoraSupport'
 
   s.homepage         = 'https://github.com/loopsocial/firework_ios_sdk_agora_support'
