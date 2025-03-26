@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FireworkVideoAgoraSupport'
-  s.version          = '0.6.0-beta.3'
+  s.version          = '0.6.0'
   s.summary          = 'FireworkVideoAgoraSupport'
 
   s.homepage         = 'https://github.com/loopsocial/firework_ios_sdk_agora_support'
@@ -39,7 +39,8 @@ Pod::Spec.new do |s|
     else
       echo "Failed to extract framework version."
     fi
-    '
+    ',
+    :output_files => ['${DERIVED_FILE_DIR}/out.txt']
   }
 
   s.dependency 'AgoraRtcEngine_iOS/RtcBasic', '4.4.0'
